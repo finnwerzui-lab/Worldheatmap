@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "worldheatmap",
+  "version": "${version}",
+  "name": "World Heatmap",
+  "description": "Zeigt eine Heatmap deiner Welt: wo du die meiste Zeit verbringst, wo du stirbst und wo du abbaust. Mit PNG-Export.",
+  "authors": ["TheAterial"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.theaterial.heatmap.WorldHeatmap"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
